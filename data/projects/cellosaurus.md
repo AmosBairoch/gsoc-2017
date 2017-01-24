@@ -5,12 +5,11 @@ The cellosaurus is a knowledge resource on cell lines. It attempts to describe a
 
 ![Cellosaurus](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAVkAAAAJDQ4M2JmMzlmLTBkY2UtNGU4MC1hMjlhLTk1OTdmY2Y4ZTBhZA.jpg)
 
-[TO BE COMPLETED][TO BE COMPLETED]
-
+It is available on the SIB ExPAsy server (http://web.expasy.org/cellosaurus/)
 
 ##### Approach
 
-Two enhancements should be carried out concerning the [Cellosaurus](http://web.expasy.org/cellosaurus/):
+Two enhancements should be carried out concerning the [Cellosaurus]:
 
 -	Development of a Web-based tool to compare a user entered STR Marker profile for a cell line with all the STR marker data stored in the Cellosaurus. The program would run an algorithm similar to that described in [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772516/)
 
@@ -18,12 +17,10 @@ Two enhancements should be carried out concerning the [Cellosaurus](http://web.e
 
 ##### Challenges
 
-- The amount of different cell line
- [TO BE COMPLETED][TO BE COMPLETED]
- Understand RDF.
-
+- For the first part: know how to write web page/formulars, understand the algorithm and implement it using the data available in the XML file of the Cellosaurus (for the XSD see ftp://ftp.expasy.org/databases/cellosaurus/cellosaurus.xsd)
+- For the second part: understand the Wikidata data structure and either edit an existing bot or creat one from scratch. 
 
 ##### Requirements
 
 - The student must have read the publication and understood the algorithm.
-- ...
+- Read the specifications for what data in the Cellosaurus will be imported to Wikidata. The specification document is being finalized and will be available soon.
